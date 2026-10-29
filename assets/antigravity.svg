@@ -1,0 +1,21 @@
+<svg width="128" height="128" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg_grad" x1="0" y1="0" x2="136" y2="136" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E1F22"/>
+      <stop offset="100%" stop-color="#111215"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="136" height="136" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="136" height="136" rx="30" fill="url(#bg_grad)"/>
+  <rect width="134" height="134" x="1" y="1" rx="29" stroke="#3186FF" stroke-width="1.5" stroke-opacity="0.3"/>
+  <g transform="translate(12 10)">
+    <path d="M89.6992 93.695C94.3659 97.195 101.366 94.8617 94.9492 88.445C75.6992 69.7783 79.7825 18.445 55.8659 18.445C31.9492 18.445 36.0325 69.7783 16.7825 88.445C9.78251 95.445 17.3658 97.195 22.0325 93.695C40.1159 81.445 38.9492 59.8617 55.8659 59.8617C72.7825 59.8617 71.6159 81.445 89.6992 93.695Z" fill="#3186FF"/>
+    <ellipse cx="68" cy="46" rx="14" ry="14" fill="#FFE432" opacity="0.9"/>
+    <ellipse cx="44" cy="74" rx="10" ry="10" fill="#00B95C" opacity="0.9"/>
+    <ellipse cx="80" cy="72" rx="11" ry="11" fill="#FC413D" opacity="0.9"/>
+    <path d="M55.8659 59.8617C46 59.8617 38 72 30 84C42 80 50 68 55.8659 59.8617Z" fill="#749BFF" opacity="0.8"/>
+  </g>
+</svg>

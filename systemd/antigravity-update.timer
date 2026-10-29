@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily check and update for Google Antigravity & IDE
+Documentation=https://antigravity.google/docs
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+RandomizedDelaySec=1800
+
+[Install]
+WantedBy=timers.target

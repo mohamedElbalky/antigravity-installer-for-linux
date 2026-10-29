@@ -1,0 +1,13 @@
+[Unit]
+Description=Google Antigravity & Antigravity IDE Automatic Background Updater
+Documentation=https://antigravity.google/docs
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/antigravity-update
+StandardOutput=journal
+StandardError=journal
+Nice=19
+CPUSchedulingPolicy=idle
